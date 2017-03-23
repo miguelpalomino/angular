@@ -7,8 +7,7 @@ import {AuthorsComponent} from './authors.component'
     template: `
     		<h1>My First Angular 2 App</h1>
     		<courses></courses>
-    		<authors></authors>
-    `,
+    		<authors></authors>`,
     directives: [CoursesComponent, AuthorsComponent]
 })
 export class AppComponent { }
