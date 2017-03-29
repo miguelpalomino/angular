@@ -14,7 +14,7 @@ import  {Component} from 'angular2/core'
 export class StartComponent {
   isSelected = false
 
-  onclick() {
+  onClick() {
     this.isSelected = !this.isSelected
   }
 }
